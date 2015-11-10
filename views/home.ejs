@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="securityCtrl">
+	<head>
+	  <title>Home</title>
+	</head>
+	<body>
+		<div align="center" ng-controller="signinCtrl">
+			<div ng-show="token.length > 0">
+				<h2>Welcome user</h2>
+				<div>
+					<a href='#'> Home </a>- 
+					<a href='#'> Billing </a>- 
+					<a href='#'> Settings </a>-
+					<a href='#' ng-click='signout()'> Logout </a> 
+				</div>
+			</div>
+
+			<div ng-hide="token.length > 0">
+			  <h2>Signin</h2>
+			  <div>Email <input type="text" ng-model="email" /></div>
+			  <div>Password <input type="password" ng-model="password" /></div>  
+			  <div><button ng-click='send()'>Signin</button></div>
+			  <a href='user/signup'>new user?</a>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="javascripts/app.js"></script>
+	<script type="text/javascript" src="javascripts/securityCtrl.js"></script>
+	<script type="text/javascript" src="javascripts/signinCtrl.js"></script>	
+</html>

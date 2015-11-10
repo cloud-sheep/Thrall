@@ -1,0 +1,11 @@
+{
+  "development": {
+    "uri" : "mongodb://localhost/paycraft"
+  },
+  "test": {
+    "uri" : "mongodb://localhost/paycraft"
+  },
+  "production": {
+    "uri" : "mongodb://localhost/paycraft"
+  }
+}

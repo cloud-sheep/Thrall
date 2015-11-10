@@ -1,0 +1,26 @@
+{
+  "development": {
+    "tokenSecret": "hxetdfkhtlsfriqaswedfvg",
+    "mailer": {
+    	"user": "email@gmail.com",
+    	"password": "abcde",
+    	"service": "Gmail"
+    }
+  },
+  "test": {
+    "tokenSecret": "hxetdfkhtlsfriqaswedfvg",
+    "mailer": {
+    	"user": "email@gmail.com",
+    	"password": "abcde",
+    	"service": "Gmail"
+    }
+  },
+  "production": {
+    "tokenSecret": "hxetdfkhtlsfriqaswedfvg",
+    "mailer": {
+    	"user": "email@gmail.com",
+    	"password": "abcde",
+    	"service": "Gmail"
+    }
+  }
+}
