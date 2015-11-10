@@ -1,0 +1,2 @@
+move %cd%
+bower install
