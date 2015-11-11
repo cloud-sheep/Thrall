@@ -27,4 +27,9 @@ The project need the following dependecies:
 
 ## Install the Project
 * If in Windows, just run "install_windows.bat" as Administrator.
-* Enjoy!
+* Wait for the message "press any key to continue...".
+* If the message not be shown, open the command prompt and redirects to the project folder. After this run the following commands:
+- $ npm install -g bower
+- $ npm install -g express
+- $ bower install
+- $ npm install
