@@ -1,6 +1,6 @@
 move %cd%
-npm install -g bower
-npm install -g express
-bower install
-npm install
-pause
+call npm install -g bower
+call npm install -g express
+call bower install
+call npm install
+call pause
