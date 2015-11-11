@@ -37,7 +37,7 @@ The project need the following dependecies:
 ## Run the Project
 Run the following command:
 - npm start
-- Open the following address into your browser: http:127.0.0.1:3000
+- Open the following address into your browser: http://localhost:3000
 
 ## Troubleshooting
 * Before all, ensure yourself that all steps were obeyed and that MongoDB is active.
