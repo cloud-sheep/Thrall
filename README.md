@@ -33,3 +33,11 @@ The project need the following dependecies:
 - $ npm install -g express
 - $ bower install
 - $ npm install
+
+## Run the Project
+Run the following command:
+- npm start
+- Open the following address into your browser: http:127.0.0.1:3000
+
+## Troubleshooting
+* Before all, ensure yourself that all steps were obeyed and that MongoDB is active.
