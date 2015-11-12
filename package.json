@@ -13,7 +13,6 @@
     "ejs": "^2.3.4",
     "express": "^4.13.3",
     "jsonwebtoken": "^5.4.0",
-    "mongoose": "^4.1.11",
     "morgan": "^1.6.1",
     "nodemailer": "^1.8.0",
     "pg": "^4.4.3",
