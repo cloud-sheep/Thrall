@@ -1,11 +1,29 @@
 {
   "development": {
-    "uri" : "mongodb://localhost/paycraft"
+  	"db" : {
+  		"dialect"  : "postgres",
+  		"database" : "paycraft_development", 
+  		"username" : "postgres", 
+  		"password" : "postgres",
+      "logging"  : false
+  	}
   },
   "test": {
-    "uri" : "mongodb://localhost/paycraft"
+  	"db" : {
+   		"dialect"  : "postgres",
+  		"database" : "paycraft_test", 
+  		"username" : "postgres", 
+  		"password" : "postgres",
+      "logging"  : false
+  	}
   },
   "production": {
-    "uri" : "mongodb://localhost/paycraft"
+  	"db" : {
+   		"dialect"  : "postgres",
+  		"database" : "paycraft_production", 
+  		"username" : "postgres", 
+  		"password" : "postgres",
+      "logging"  : false
+  	}
   }
 }

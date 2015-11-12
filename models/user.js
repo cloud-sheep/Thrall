@@ -1,14 +1,16 @@
-var mongoose = require('mongoose');
+"use strict";
 
-module.exports.sync = function () {
-	var schema = new mongoose.Schema({  
-	    uuid      : { type: String, index: true, unique: true, required: true, },
-	    email     : { type: String, unique: true, required: true, },
-	    password  : { type: String, required: true, },
-	    created   : { type: Date, default: Date.now, },
-	    confirmed : { type: Boolean, default: false, },
-	    confirmedAt : {type: Date, default: Date.now },
+module.exports = function(sequelize, DataTypes) {
+  var model = sequelize.define("user", {
+		uuid        : { type: DataTypes.UUID, field:'uuid' },
+		email       : { type: DataTypes.STRING(256), field:'email' },
+		password    : { type: DataTypes.STRING(256), field:'password' },
+		confirmed   : { type: DataTypes.BOOLEAN, field: 'confirmed' },
+		confirmedAt : { type: DataTypes.DATE, field:'confirmedAt' },
+	}, {
+		tableName : "user", 
+		classMethods : { },
 	});
 
-	mongoose.model('user', schema);
+  return model;
 };
