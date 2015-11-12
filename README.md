@@ -40,4 +40,4 @@ The project need the following dependecies:
 - 
 ## Troubleshooting
 * Before all, ensure yourself that all steps were obeyed.
-* Ensure that every time that you to pull the project you run the your installation file again (install_windows.bat).
+* Ensure that every time that you to pull the project you run the installation file script again (install_windows.bat).
